@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+}
+
+header > div > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left {
+  width: 12%;
+}
+
+.right {
+  width: 20%;
+}
+
+.right > ul {
+  display: flex;
+  align-items: center;
+}
+
+#appsbutton {
+  width: 15px;
+  height: 15px;
+  filter: opacity(0.6);
+}
+
+li > button {
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+  border-width: 0px;
+  background-color: rgb(71, 134, 236);
+  color: white;
+  transition: 0.3s;
+}
+
+li > button:hover {
+  opacity: 0.9;
+}
+
+#body {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.logo {
+  margin-bottom: 2%;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  background-color: rgb(225, 225, 225);
+  border-top: 1px solid rgb(183, 183, 183);
+  opacity: 0.6;
+}
+
+.left2 > ul {
+  display: flex;
+}
+
+.left2 > ul > li {
+  margin-left: 5%;
+}
+
+.left2,
+.right2 {
+  width: 50%;
+}
+
+.right2 > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right2 > ul > li {
+  margin-right: 5%;
+}
+
+#form {
+  width: 35%;
+}
+#form > input {
+  width: 99%;
+  line-height: 40px;
+  border-radius: 25px;
+  margin-bottom: 3%;
+  border: 1px solid gray;
+}
+
+.buton {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buton > button {
+  height: 2.5em;
+  width: 30%;
+  background-color: rgb(224, 224, 224);
+  border: 1px solid rgb(176, 176, 176);
+  opacity: 0.7;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.buton > button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#signinbutton {
+  cursor: pointer;
+}
